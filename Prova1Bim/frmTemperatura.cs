@@ -23,9 +23,9 @@ namespace Prova1Bim
             }
             catch (FormatException)
             {
-                MessageBox.Show("Por favor, insira uma temperatura válida.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                 MessageBox.Show("Por favor, insira uma temperatura válida.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
+        }  
 
 
 
