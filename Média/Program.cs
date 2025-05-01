@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Windows.Forms; 
+using System.Windows.Forms;
 
-namespace Prova1Bim
+namespace Média
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace Prova1Bim
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMenu());
+            Application.Run(new frmMedia());
         }
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F31FA58D-19FC-4531-9EDE-FC6B7C730431}</ProjectGuid>
+    <ProjectGuid>{66059277-9A59-474E-85B9-BC4308D971B4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Prova1Bim</RootNamespace>
-    <AssemblyName>Prova1Bim</AssemblyName>
+    <RootNamespace>Media</RootNamespace>
+    <AssemblyName>Media</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,29 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmMedia.cs">
+    <None Include="frmMedia">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMedia.Designer.cs">
-      <DependentUpon>frmMedia.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMenu.Designer.cs">
-      <DependentUpon>frmMenu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmTemperatura.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmTemperatura.Designer.cs">
-      <DependentUpon>frmTemperatura.cs</DependentUpon>
+    </None>
+    <Compile Include="frmMeia.Designer.cs">
+      <DependentUpon>frmMedia</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmMenu.resx">
-      <DependentUpon>frmMenu.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -78,9 +63,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="frmTemperatura.resx">
-      <DependentUpon>frmTemperatura.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

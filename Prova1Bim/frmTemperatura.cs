@@ -23,9 +23,9 @@ namespace Prova1Bim
             }
             catch (FormatException)
             {
-                 MessageBox.Show("Por favor, insira uma temperatura válida.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Por favor, insira uma temperatura válida.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }  
+        }
 
 
 
@@ -41,10 +41,10 @@ namespace Prova1Bim
             var result = MessageBox.Show("Tem certeza que deseja sair do programa?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
-                Application.Exit();
+                this.Close();
             }
         }
 
-        
+
     }
 }
